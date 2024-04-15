@@ -59,7 +59,13 @@
     font-size: 25px;
     background-color: #ff7500;
     color: #fff;
-    margin-right: 50%;
     padding: 13px 24px;
     border:none;
+  }
+
+  .button-container {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
