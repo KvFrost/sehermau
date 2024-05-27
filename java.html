@@ -1,42 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Min side</title>
-        <link rel="stylesheet" href="java.css">
-        
-    </head>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideshow</title>
+    <meta name="description" content="Dette er en generel opsætning af et HTML-dokument på dansk.">
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-    <h1 class="frivilligoplevelser">Andre frivilliges oplevelser</h1>
-    <section class="slideshow">
-
-        <container class="slideshow-container">
-            <div class="etSlide">
-                <img src="billeder/karina.png" alt="karina">
-            </div>
-            <div class="etSlide">
-                <img src="billeder/jeppe.png" alt="jeppe">
-            </div>
-            <div class="etSlide">
-                <img src="billeder/simone.png" alt="simone">
-            </div>
-            <div class="etSlide">
-                <img src="billeder/nicklas.png" alt="nicklas">
-            </div>
-            <div class="etSlide">
-                <img src="billeder/sanne.png" alt="sanne">
-            </div>    
-        </container>
+    <main>
         
-        <section class="hvKnapper">
-            <button id="prevBtn" onclick="plusSlide(-1)">ᐸ</button>
-            <button id="nextBtn" onclick="plusSlide(1)">ᐳ</button>
+        <section class="slideshow-container">
+            <div class="etSlide">
+                <div class="slide-content">
+                    <h2>Upload din kvittering, og optjen point</h2>
+                    <p>Upload en faktura med produkter fra Schneider Electric, så du kan optjene point til rabatter og meget mere.</p>
+                    <button class="slideknap1">Upload kvittering</button>
+                </div>
+            </div>
+            <div class="etSlide">
+                <div class="slide-content">
+                    <h2>Schneider</h2>
+                    <p>Schneider Electric er kåret som den mest bæredygtige virksomhed</p>
+                    <button class="slideknap1">Læs mere om os</button>
+                </div>
+            </div>
+            <div class="etSlide">
+                <div class="slide-content">
+                    <h2>LK FUGA&#9415; Inspirationskatalog</h2>
+                    <p>LK Fuga er verdensklasse design, der er skabt til at blive brugt</p>
+                    <button class="slideknap2">Download LK FUGA Inspirationskatalog</button>
+                    <button class="slideknap3">Besøg LK.dk</button>
+                </div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#139;</a>
+            <a class="next" onclick="plusSlides(1)">&#155;</a>
         </section>
-        <section class="button-container">
-            <button class="frivillignuknap" type="submit">BLIV FRIVILLIG NU</button>
-        </section>
-    </section>
+        
+        
+    </main>
+
     <script src="script.js"></script>
-    </body>
+</body>
 </html>
