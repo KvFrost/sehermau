@@ -96,3 +96,50 @@ body {
     border: 1px solid white;
     color: white;
 }
+
+@media (max-width: 768px) {
+    .etSlide {
+        height: 200px; /* Reduce height for mobile */
+    }
+    
+    h2 {
+        font-size: 24px; /* Adjust heading size for mobile */
+    }
+    
+    p {
+        font-size: 14px; /* Adjust paragraph size for mobile */
+    }
+    
+    .slide-content {
+        width: 90%; /* Increase content width on mobile */
+    }
+
+    .prev, .next {
+        font-size: 18px; /* Reduce arrow size for mobile */
+        padding: 10px;
+    }
+
+    .slideknap1, .slideknap2, .slideknap3 {
+        padding: 8px 16px; /* Adjust button padding for mobile */
+        margin: 5px 3px; /* Adjust button margin for mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    .etSlide {
+        height: 150px; /* Further reduce height for very small screens */
+    }
+    
+    h2 {
+        font-size: 20px; /* Further adjust heading size */
+    }
+    
+    p {
+        font-size: 12px; /* Further adjust paragraph size */
+    }
+    
+    .slideknap1, .slideknap2, .slideknap3 {
+        padding: 6px 12px; /* Further adjust button padding */
+        margin: 4px 2px; /* Further adjust button margin */
+    }
+}
