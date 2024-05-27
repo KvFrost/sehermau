@@ -31,6 +31,8 @@ body {
     align-items: center;
     background-size: cover;
     background-position: center;
+    height: 250px;
+    width: 1500px;
 }
 
 .slide-content {
