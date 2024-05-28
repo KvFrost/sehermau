@@ -21,6 +21,7 @@ body {
     position: relative;
     max-width: 1000px;
     margin: auto;
+    width: 1000px;
 }
 
 .etSlide {
@@ -32,7 +33,7 @@ body {
     background-size: cover;
     background-position: center;
     height: 250px;
-    width: 1500px;
+    width: 100%;
 }
 
 .slide-content {
@@ -99,11 +100,11 @@ body {
 
 @media (max-width: 768px) {
     .etSlide {
-        height: 200px; /* Reduce height for mobile */
+        height: 150px; /* Reduce height for mobile */
     }
     
     h2 {
-        font-size: 24px; /* Adjust heading size for mobile */
+        font-size: 20px; /* Adjust heading size for mobile */
     }
     
     p {
@@ -111,7 +112,7 @@ body {
     }
     
     .slide-content {
-        width: 90%; /* Increase content width on mobile */
+        width: 50%; /* Increase content width on mobile */
     }
 
     .prev, .next {
